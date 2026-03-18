@@ -128,7 +128,7 @@ def generate_random_name(name_prefix):
 def generate_custom_password():
     characters = string.ascii_letters + string.digits
     random_part = ''.join(random.choice(characters) for _ in range(9)).upper()
-    return f"DANGER-{random_part}-CORE"
+    return f"LEOMODZ-{random_part}-DEV"
 
 # ---------------- Account creation (register/token) ---------------- #
 def create_single_account(args):
